@@ -1,0 +1,43 @@
+{
+  "name": "SakhaSampark",
+  "short_name": "SakhaSampark",
+  "description": "A serverless peer-to-peer chat application",
+  "start_url": "/SakhaSampark_v.1.0.1/login.html",
+  "display": "standalone",
+  "background_color": "#1a2b3c",
+  "theme_color": "#3282b8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/AppImages/android/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/AppImages/android/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "scope": "/SakhaSampark_v.1.0.1/",
+  "shortcuts": [
+    {
+      "name": "Login",
+      "short_name": "Login",
+      "description": "Login to SakhaSampark",
+      "url": "/SakhaSampark_v.1.0.1/login.html"
+    },
+    {
+      "name": "Sign Up",
+      "short_name": "Sign Up",
+      "description": "Create a new account",
+      "url": "/SakhaSampark_v.1.0.1/signup.html"
+    }
+  ],
+  "categories": ["social", "communication"],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
